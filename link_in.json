@@ -1,0 +1,42 @@
+[
+    {
+        "id": "9ad31d7723288845",
+        "type": "tab",
+        "label": "link in",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8d4d873421781a82",
+        "type": "debug",
+        "z": "9ad31d7723288845",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "23163ada706182f4",
+        "type": "link in",
+        "z": "9ad31d7723288845",
+        "name": "link in 2",
+        "links": [
+            "46f97bc040c91c40"
+        ],
+        "x": 135,
+        "y": 140,
+        "wires": [
+            [
+                "8d4d873421781a82"
+            ]
+        ]
+    }
+]
